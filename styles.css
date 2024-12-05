@@ -1,0 +1,89 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #FF7F32;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+/* Seção da receita */
+main {
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+section.receita {
+    background-color: #fff;
+    border: 2px solid #FF7F32;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+.receita h2 {
+    font-size: 1.8rem;
+    color: #FF7F32;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FF7F32;
+    padding-bottom: 5px;
+}
+
+/* Listas */
+ul, ol {
+    margin: 15px 0;
+    padding-left: 20px;
+    font-size: 1.1rem;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1rem;
+}
+
+/* Adaptação para dispositivos móveis */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .receita h2 {
+        font-size: 1.5rem;
+    }
+
+    ul, ol {
+        font-size: 1rem;
+    }
+}
